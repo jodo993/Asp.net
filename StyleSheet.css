@@ -1,0 +1,65 @@
+﻿body {
+    padding: 0;
+}
+
+#pageTop {
+    margin-top: -10px;
+    height: 250px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.9;
+    background-image: url(EVshop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav ul{
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 24px;
+    color: #a9a9a9;
+    border: 2px white;
+    border-bottom: inset;
+    border-right: outset;
+    padding: 5px 5px 5px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1,1.1);
+    color: pink;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px white;
+}
+
+nav ul li a:visited {
+    color: #5f8e8a;
+    text-decoration: none;
+}
+
+section {
+    background-color: #373737;
+    margin-top: -16px;
+    margin-bottom: -16px;
+    height: 500px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
